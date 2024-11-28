@@ -20,16 +20,16 @@ light_years (obrigatório): Um número positivo representando o valor em anos-lu
 
     1. 200 OK:
         Corpo da resposta:
-            ```json 
+            json 
             {
               "quilometros": "valor em quilômetros"
-            }```
+            }
     2. 400 Bad Request:
         Corpo da resposta (se os parâmetros forem inválidos):
-            ```json
+            json
             {
               "erro": "parâmetros inválidos"
-            }```
+            }
             
 **_2. POST /api/anosLuz_**
 
@@ -43,16 +43,16 @@ kilometers (obrigatório): Um número positivo representando o valor em quilôme
 
     1.200 OK:
         Corpo da resposta:
-            ```json
+            json
             {
               "anoLuz": "valor em anos-luz"
-            }```
+            }
     2. 400 Bad Request:
         Corpo da resposta (se os parâmetros forem inválidos):
-            ```json
+            json
             {
               "erro": "parâmetros inválidos"
-            }```
+            }
 
 **🔧 Requisitos e Dependências**
 Requisitos do Sistema:
