@@ -63,12 +63,19 @@ Requisitos do Sistema:
 Configuração do Projeto:
 
 Clone este repositório:
+
     _git clone https://github.com/brunaborgesrb/Projeto-PHP.git_
+    
 Navegue até a pasta do projeto:
+
     _cd Projeto-PHP_
+    
 Instale as dependências:
+
     _composer install_
+    
 Inicie o servidor local:
+
     _php artisan serve_
 
 **🌐 Interface Web**
@@ -76,4 +83,5 @@ Além da API, a aplicação possui uma interface web simples e interativa que pe
 
 **🧪 Testes Unitários**
 O projeto inclui testes unitários para validar a funcionalidade dos endpoints. Para executá-los:
+
     _php artisan test_
