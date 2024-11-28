@@ -1,4 +1,4 @@
-# Conversor de Unidades: Quilômetros ↔ Anos-Luz
+# Projeto PHP Netcon: Quilômetros ↔ Anos-Luz
 Este projeto é uma aplicação PHP desenvolvida com o framework Laravel que realiza a conversão entre quilômetros (km) e anos-luz. A aplicação disponibiliza uma interface web e oferece endpoints para integração com outras aplicações.
 
 **🚀 Funcionalidades**
