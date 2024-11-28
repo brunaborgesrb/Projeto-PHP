@@ -34,16 +34,16 @@ kilometers (obrigatório): Um número positivo representando o valor em quilôme
 📤 Respostas:
     1.200 OK:
         Corpo da resposta:
-            '''json
+            ```json
             {
               "anoLuz": "valor em anos-luz"
-            }'''
+            }```
     2. 400 Bad Request:
         Corpo da resposta (se os parâmetros forem inválidos):
-            json
+            ```json
             {
               "erro": "parâmetros inválidos"
-            }
+            }```
 
 **🔧 Requisitos e Dependências**
 Requisitos do Sistema:
