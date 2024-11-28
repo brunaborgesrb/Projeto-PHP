@@ -9,23 +9,27 @@ Este projeto é uma aplicação PHP desenvolvida com o framework Laravel que rea
 A API possui dois endpoints principais:
 
 **_1. POST /api/quilometros_**
+
   Converte um valor em anos-luz para quilômetros.
 
 **📥 Parâmetros de Requisição:**
+
 light_years (obrigatório): Um número positivo representando o valor em anos-luz.
+
 📤 Respostas:
     1. 200 OK:
         Corpo da resposta:
-            json 
+            ```json 
             {
               "quilometros": "valor em quilômetros"
-            }
+            }```
     2. 400 Bad Request:
         Corpo da resposta (se os parâmetros forem inválidos):
-            json
+            ```json
             {
               "erro": "parâmetros inválidos"
-            }
+            }```
+            
 **_2. POST /api/anosLuz_**
   Converte um valor em quilômetros para anos-luz.
 
