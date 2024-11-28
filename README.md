@@ -17,6 +17,7 @@ A API possui dois endpoints principais:
 light_years (obrigatório): Um número positivo representando o valor em anos-luz.
 
 📤 Respostas:
+
     1. 200 OK:
         Corpo da resposta:
             ```json 
@@ -31,11 +32,15 @@ light_years (obrigatório): Um número positivo representando o valor em anos-lu
             }```
             
 **_2. POST /api/anosLuz_**
+
   Converte um valor em quilômetros para anos-luz.
 
 **📥 Parâmetros de Requisição:**
+
 kilometers (obrigatório): Um número positivo representando o valor em quilômetros.
+
 📤 Respostas:
+
     1.200 OK:
         Corpo da resposta:
             ```json
@@ -56,6 +61,7 @@ Requisitos do Sistema:
 - Laravel 8.x (framework principal)
   
 Configuração do Projeto:
+
 Clone este repositório:
     _git clone https://github.com/brunaborgesrb/Projeto-PHP.git_
 Navegue até a pasta do projeto:
